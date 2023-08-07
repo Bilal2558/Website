@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Swash:wght@400;700&family=Josefin+Sans:wght@700&display=swap');
+
+body {
+    background-color: hwb(209 17% 30% / 0.616);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: hsl(212, 75%, 16%);
+
+    
+    
+
+}
+
+ul li {
+    display: block;
+    position: relative;
+    float: left;
+    background: #0A2647;
+}
+
+li ul {
+    display: none;
+}
+
+ul li a {
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    white-space: nowrap;
+    color: #fff;
+}
+
+ul li a:hover {
+    background: #144272;
+}
+
+li:hover>ul {
+    display: block;
+    position: absolute;
+}
+
+li:hover li {
+    float: none;
+}
+
+li:hover a {
+    background: #144272;
+}
+
+li:hover li a:hover {
+    background: #205295;
+}
+
+.main-navigation li ul li {
+    border-top: 0;
+}
+
+ul ul ul {
+    left: 100%;
+    top: 0;
+}
+
+ul:before,
+ul:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+}
+
+ul:after {
+    clear: both;
+}
+
+
+img {
+    justify-self: center;
+    border: #0A2647 2px solid;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px 1px #080808;
+    width: 250px;
+    height: 250px;
+}
+
+div {
+    justify-items: center;
+}
+
+div.pic {
+
+
+    display: flex;
+    display: inline;
+    justify-items: center;
+
+}
+
+.name {
+    text-align: center;
+}
+
+/* portfolio style sheet */
+
+.myname {
+    background-color: #2D4356;
+    display: flex;
+
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1 {
+    margin: 10px;
+    font-family: 'Cherry Swash', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+   
+}
+.name{
+    color: white;
+    display: flex;
+    font-size: 400%;
+    text-shadow: 1px 2px 8px #050505;
+}
+.fname{
+    color: #e4924f;
+    
+    display: flex;
+    font-size: 300%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 2px 8px #050505;
+}
+.fname:hover{
+    text-shadow: -1px 22px 7px #000000;
+    transform: translateY(-10px);
+    transition: all 0.5s ease-in-out
+}
+.name:hover{
+    text-shadow: -1px 22px 7px #000000;
+    transform: translateY(-10px);
+    transition: all 0.5s ease-in-out
+}
+.mypic{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    padding: 0%;
+    margin: 0%;
+    box-shadow: none;
+    border:2px #fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+
+}
+.mypic:hover{
+    box-shadow: 2px 8px 20px 4px #000;
+    transform: translateY(-10px);
+    transition: all 0.5s ease-in-out
+}
+
+
+
+ /* about me styles */
+ body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0px;
+    height: auto;
+}
+
+h1 {
+    color: #333;
+}
+
+.portfolio {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.header-box {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.info-box, .skills-box, .contact-box {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.skills-box ul  ,.contact-box ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: white;
+    margin: 5px;
+}
+
+.skills-box li ,.contact-box li {
+    margin-bottom: 5px;
+    background-color: white;
+    margin-right: 5px;
+}
+
+ul.fa-ul{
+    display: flex;
+    display: inline-flex;
+    background-color: white;
+    color: white;
+    margin: 0;
+}
+.skills{
+    text-justify: distribute;
+}
